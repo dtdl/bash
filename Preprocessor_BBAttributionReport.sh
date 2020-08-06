@@ -1,16 +1,3 @@
-### parse file header
-### remove file header, create new file with the main content
-# sed -n '开始行数,结束行数p'  待截取的文件  >> 保存的新文件
-#sed -i '1,7d' Bloomberg_Sample_Attribution_Report.csv > 2.csv  
-##sed -n '1,7d' Bloomberg_Sample_Attribution_Report.csv > 2.csv  
-#sed -i '1d' temp.txt
-#sed -i '1,7d' temp.txt
-#sed -i '$d' temp.txt
-#
-# n = wc -l 
-# tail -( n -7 ) > new file
-### write headers to end of each row
-### read level 1 field, write to end of each row
 
 # create a copy for processing
 cp $1 temp1.csv
